@@ -64,3 +64,8 @@
     --code-bg: var(--gray-900);
   }
 }
+
+[data-theme="pretty-dark"] {
+  --body-bg: var(--gray-900);
+  --body-color: #fff;
+}
