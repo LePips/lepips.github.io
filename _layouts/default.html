@@ -23,14 +23,6 @@
       <main>
         {{ content }}
       </main>
-
-      <footer class="footer" style="position: absolute; bottom: 0">
-        <br>
-
-        <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-        </small>
-      </footer>
     </div>
 
     {% if site.ga_analytics %}
