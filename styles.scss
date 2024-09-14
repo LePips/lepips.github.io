@@ -45,3 +45,17 @@
     margin-left: var(--spacer);
   }
 }
+
+.headerButtonPadded {
+  margin-left: 0.5em;
+}
+
+blockquote{
+  border-left: 2px solid var(--gray-500) ;
+}
+
+blockquote span{
+  display: block;
+  font-style: normal;
+  font-size: 14px;
+}

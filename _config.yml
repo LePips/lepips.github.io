@@ -1,12 +1,13 @@
 # Setup
 title: Ethan Pippin
-tagline: just doin' what I do
+tagline: todo
 url: https://ethanpippin.com
 paginate: 1
 baseurl: ""
 permalink: pretty
 githubURL: https://github.com/LePips
 linkedinURL: https://www.linkedin.com/in/ethan-pippin-b0754a164/
+leetcodeURL: https://leetcode.com/u/pippin2343/
 
 # Gems
 plugins:
