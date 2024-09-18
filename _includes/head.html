@@ -20,4 +20,8 @@
   <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/all.min.css">
 
   {% seo title=false %}
+
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
 </head>

@@ -33,6 +33,7 @@ sass:
 
 # Replace this value and uncomment to enable Google Analytics tracking
 # ga_analytics: UA-000000-0
+google_analytics: G-WJ3WY1GP64
 
 # Specify the author for blog posts
 author:
