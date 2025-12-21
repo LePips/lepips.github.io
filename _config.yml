@@ -1,44 +1,11 @@
-# Setup
 title: Ethan Pippin
-tagline: todo
 url: https://ethanpippin.com
-paginate: 1
 baseurl: ""
-permalink: pretty
 githubURL: https://github.com/LePips
 linkedinURL: https://www.linkedin.com/in/ethan-pippin-b0754a164/
 leetcodeURL: https://leetcode.com/u/pippin2343/
-
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
-
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-
+google_analytics: G-WJ3WY1GP64
+markdown: kramdown
 sass:
   sass_dir: _sass
-  style: :compressed
-
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-google_analytics: G-WJ3WY1GP64
-
-# Specify the author for blog posts
-author:
-  name: Ethan Pippin
-  url: https://ethanpippin.com
-
-# Custom vars
-version: 1.0.0
+  style: compressed

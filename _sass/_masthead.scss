@@ -1,35 +1,53 @@
-// Masthead
-//
-// Super small header above the content for site name and short description.
-
 .masthead {
   padding-top: var(--spacer);
   padding-bottom: var(--spacer);
   margin-bottom: var(--spacer-2);
-  float: center;
 }
 
 .masthead-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  flex-wrap: wrap;
   margin-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--heading-color);
+  letter-spacing: -0.02rem;
+}
 
-  a {
-    color: inherit;
-    text-decoration: none;
-    // transition: opacity 0.3s ease;
-    // opacity: 1;
-  }
+.site-title {
+  color: inherit;
+}
 
-  // a:hover {
-  //   opacity: 0.7;
-  // }
+.rule {
+  border: 0;
+  height: 1px;
+  background: var(--border-color);
+  opacity: 0.5;
+  margin: var(--spacer) 0 0;
+}
 
-  small {
-    font-weight: 400;
-    opacity: .5;
-  }
+.icon-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
 
-  i {
-    color:white;
-    text-decoration: none;
-  }
+.icon-row a {
+  color: var(--body-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: opacity 160ms ease;
+}
+
+.icon-row a:hover {
+  color: var(--body-color);
+  opacity: 0.75;
+}
+
+.headerButtonPadded {
+  margin-left: 0.35rem;
 }

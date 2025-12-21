@@ -1,29 +1,33 @@
 <!doctype html>
-<html lang="en" data-theme="pretty-dark">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+  <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>">
+  <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <header class="masthead">
+      <div class="masthead-title">
+        <span class="site-title">{{ site.title }}</span>
+        <div class="icon-row">
+          <a href="{{ site.githubURL }}" aria-label="GitHub"><i class="cib-github"></i></a>
+          <a href="{{ site.linkedinURL }}" aria-label="LinkedIn" class="headerButtonPadded"><i class="cib-linkedin"></i></a>
+          <a href="{{ site.leetcodeURL }}" aria-label="LeetCode" class="headerButtonPadded"><i class="cib-leetcode"></i></a>
+        </div>
+      </div>
+      <hr class="rule">
+    </header>
 
-  {% include head.html %}
-
-  <body>
-
-    <div class="container content">
-      <header class="masthead" style="margin-top: 2em">
-        <h2 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home" class="headerButton">{{ site.title }}</a>
-
-          <medium style="float:right;">
-            <a href="{{ site.githubURL }}"><i class="cib-github"></i></a>
-            <a href="{{ site.linkedinURL }}" class="headerButtonPadded"><i class="cib-linkedin"></i></a>
-            <a href="{{ site.leetcodeURL }}" class="headerButtonPadded"><i class="cib-leetcode"></i></a>
-          </medium>
-        </h3>
-
-        <hr style="border: 1px solid white; opacity: 0.5">
-
-      </header>
-
-      <main>
-        {{ content }}
-      </main>
-    </div>
-  </body>
+    <main>
+      {{ content }}
+    </main>
+  </div>
+</body>
 </html>
