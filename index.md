@@ -3,7 +3,7 @@ layout: default
 title: Ethan Pippin
 ---
 
-Just an engineer with a love of bodybuilding, learning new things, and making impact.
+Just an engineer with a love of bodybuilding, learning new things, and just trying to do my best.
 
 Check out my [resume](/assets/ethan-pippin-resume.pdf).
 
@@ -23,6 +23,6 @@ Check out my [resume](/assets/ethan-pippin-resume.pdf).
 
 - Capital One - Principal Mobile Associate
 - Ivanti - Software Engineer
-- WeWork - iOS Developer
-- Teem - Junior iOS Developer
+- WeWork - iOS Engineer
+- Teem - Junior iOS Engineer
 - Self - Amateur bodybuilder
