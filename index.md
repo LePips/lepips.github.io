@@ -3,7 +3,7 @@ layout: default
 title: Ethan Pippin
 ---
 
-Just an engineer with a love of bodybuilding, learning new things, and just trying to do my best.
+An engineer with a love of bodybuilding, learning new things, and just trying to do my best.
 
 Check out my [resume](/assets/ethan-pippin-resume.pdf).
 
